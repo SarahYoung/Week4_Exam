@@ -1,10 +1,7 @@
 class Takeaway
 
-	def dish_list
-		@dishes = ["spaghetti", "icecream"]
+	def my_order
+		@order = {:icecream_pints => 5, :spaghetti_bowls => 2}	 
 	end
 
-	def price_list
-		@prices = ["£3", "£1"]
-	end
 end
